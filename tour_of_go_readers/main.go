@@ -18,5 +18,5 @@ func main() {
 
 	b := make([]byte, 16)
 	n, err := r.Read(b)
-	fmt.Printf("n = %v, err, = %v, b = %v \n", n, err, string(b))
+	fmt.Printf("n = %v, err = %v, b = %v \n", n, err, string(b))
 }
